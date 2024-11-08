@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Page</title>
+    <link rel="stylesheet" href="reservation.css">
+    <link rel="icon" type="image/png/jpeg" href="resort logo.png">
+    <script src="https://kit.fontawesome.com/a31e373168.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+        <img id="logo"src="resort logo.png" width="150px">
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house "></i></a></li>
+                <li><a style="text-decoration: none;" href="index.html">OVERVIEW</a></li>
+                <li><a style="text-decoration: none;" href="rooms.html">ROOMS</a></li>
+                <li><a style="text-decoration: none;" href="rooms.html">OFFERS</a></li>
+                <li><i id="bars" class="fa-solid fa-bars"></i>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="wed_party.html">Destination Wedding at Golden Sand</a></li>
+                            <li><a href="wed_party.html">Weekend Outing at Golden Sand</a></li>
+                            <li><a href="#resort_policy">Resort Policy</a></li>
+                            <li><a href="#C_R">Cancellation and Refund Policy</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><i id="phone"class="fa-solid fa-phone"></i>XXXXX-XXXXX</li>
+                <li><button id="button1">RESERVATIONS</button></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <div class="booking">
+            <h1 style="text-align: center; font-size: 35px;">BOOK HERE</h1>
+            <form action="" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+                <label for="check-in">Check-In Date:</label>
+                <input type="date" id="check-in" name="check-in" required>
+
+                <label for="check-out">Check-Out Date:</label>
+                <input type="date" id="check-out" name="check-out" required>
+
+                <label for="room-type">Room Type:</label>
+                <select id="room-type" name="room-type" required>
+                    <option value="single">Single Room</option>
+                    <option value="double">Double Room</option>
+                    <option value="suite">Suite</option>
+                </select>
+
+                <button type="submit" id="submit-button">Submit Reservation</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

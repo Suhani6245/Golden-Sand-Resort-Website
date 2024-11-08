@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms & Offers</title>
+    <link rel="stylesheet" href="rooms.css">
+    <link rel="icon" type="image/png/jpeg" href="resort logo.png">
+    <script src="https://kit.fontawesome.com/a31e373168.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--navigation bar-->
+    <div class="navbar">
+        <img id="logo"src="resort logo.png" width="150px">
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house "></i></a></li>
+                <li><a style="text-decoration: none;" href="index.html">OVERVIEW</a></li>
+                <li><a style="text-decoration: none;" href="rooms.html">ROOMS</a></li>
+                <li><a style="text-decoration: none;" href="#offers">OFFERS</a></li>
+                
+                <li><i id="bars" class="fa-solid fa-bars"></i>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="wed_party.html">Destination Wedding at Golden Sand</a></li>
+                            <li><a href="wed_party.html">Weekend Outing at Golden Sand</a></li>
+                            <li><a href="index.html">Resort Policy</a></li>
+                            <li><a href="index.html">Cancellation and Refund Policy</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><i id="phone"class="fa-solid fa-phone"></i>XXXXX-XXXXX</li>
+                <li><button id="button1"><a href="reservation.html" style="text-decoration: none;">RESERVATIONS</a></button></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <!--images-->
+        <div class="pic">
+            <img src="bedroom.jpg">
+            <img src="dining.avif">
+            <img src="launge.jpg">
+        </div>
+        <!--rooms-->
+        <div class="container">
+            <h1 id="rooms" style="text-align: center; font-size: 50px;">Our Rooms</h1>
+            <div class="room-list">
+                <!-- Room 1 -->
+                <div class="room-item">
+                    <img src="single_bed.jpg" alt="Single Room" class="room-image">
+                    <div class="room-info">
+                        <h2>Single Room</h2>
+                        <p>A luxurious room with a stunning view of the ocean. Enjoy a single-size bed and elegant decor.</p>
+                        <div class="price">&#8377;1300 / night</div>
+                        <button class="book-btn" onclick="window.location.href='reservation.html';">Book Now</button>
+                    </div>
+                </div>
+                <!-- Room 2 -->
+                <div class="room-item">
+                    <img src="Family-Suite.jpg" alt="Family Suite" class="room-image">
+                    <div class="room-info">
+                        <h2>Family Suite</h2>
+                        <p>Spacious suite perfect for families. Includes two bedrooms and a large living area.</p>
+                        <div class="price">&#8377;4500 / night</div>
+                        <button class="book-btn" onclick="window.location.href='reservation.html';">Book Now</button>
+                    </div>
+                </div>
+                <!-- Room 3 -->
+                <div class="room-item">
+                    <img src="bedroom.jpg" alt="Double Bed room" class="room-image">
+                    <div class="room-info">
+                        <h2>Double Bed</h2>
+                        <p>A spacious room featuring a comfortable king-sized bed, perfect for couples or two guests.</p>
+                        <div class="price">&#8377; 2500/ night</div>
+                        <button class="book-btn" onclick="window.location.href='reservation.html';">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--offers-->
+        <div class="offers" id="offers">
+            <h1 style="text-align: center; font-size: 47px;">Resort Special Offers</h1>
+            <div class="offer_content">
+                <ol>
+                    <li><b>Early Bird Offer</b>
+                        <ul>
+                            <li><b>Valid for</b>: All room types (Single, Double, Family Suite)</li>
+                            <li><b>Offer</b>: Book 30 days in advance and receive a 15% discount on the room rate.</li>
+                            <li><b>Additional Benefit</b>: Free breakfast for 2 people per room.</li>
+                            <li><b>Terms</b>: Non-refundable deposit required at the time of booking.</li>
+                        </ul>
+                    </li>
+                    <li><b>Family Fun Package</b>
+                        <ul>
+                            <li><b>Valid for</b>: Family Suite</li>
+                            <li><b>Offer</b>: Book a Family Suite and get 20% off, plus a complimentary family activity (e.g., guided nature walk or outdoor movie night).</li>
+                            <li><b>Additional Benefit</b>: Kids eat free at the resort’s restaurant (max 2 kids under 12).</li>
+                            <li><b>Terms</b>: Minimum stay of 3 nights required.</li>
+                        </ul>
+                    </li>
+                    <li><b>Romantic Retreat</b>
+                        <ul>
+                            <li><b>Valid for</b>: Double Room</li>
+                            <li><b>Offer</b>: A romantic 2-night getaway package, including a couples' spa treatment and private candlelit dinner on the beach.</li>
+                            <li><b>Additional Benefit</b>: Free breakfast in bed.</li>
+                            <li><b>Terms</b>: Bookings for couples only. Minimum stay of 2 nights required.</li>
+                        </ul>
+                    </li>
+                    <li><b>Weekend Getaway Deal</b>
+                        <ul>
+                            <li><b>Valid for</b>: Single and Double Rooms</li>
+                            <li><b>Offer</b>: Weekend stays (Friday to Sunday) at 10% off the regular price.</li>
+                            <li><b>Additional Benefit</b>: Complimentary welcome drink and access to the resort's weekend events.</li>
+                            <li><b>Terms</b>: Must check-in on Friday and check-out by Sunday.</li>
+                        </ul>
+                    </li>
+                    <li><b>Last-Minute Escape</b>
+                        <ul>
+                            <li><b>Valid for</b>: All room types</li>
+                            <li><b>Offer</b>: Book within 48 hours of check-in and get up to 25% off the standard rate.</li>
+                            <li><b>Additional Benefit</b>: Free room upgrade (subject to availability).</li>
+                            <li><b>Terms</b>: Valid for last-minute bookings only.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        </div><br><br><hr>
+        <section class="sec5">
+            <div class="div5">
+                <h1>Reach Out to Us!</h1>
+                <div>
+                    <form method="get">
+                        <label for="name" >Name </label>
+                        <input type="text" placeholder="Enter your name"><br><br>
+                        <label for="email" >Email </label>
+                        <input type="email" id="email" placeholder="Enter your mail address"><br><br>
+                        <label for="phone" >Phone</label>
+                        <input type="tel" placeholder="Enter your phone number"><br><br>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section><br><br>
+        <hr>
+        <footer>
+            <div class="maincont">
+                <div class="d1">
+                    <h1 style="font-size: 30px;">Golden Sand Resort</h1>
+                    <a href="#overview">Overview</a><br>
+                    <a href="">Rooms</a><br>
+                    <a href="">Offers</a><br>
+                    <a href="reservation.html">Reservation</a>
+                </div>
+                <div class="d2">
+                    <h1 style="font-size: 30px;">Reach Out to Us on</h1><br>
+            
+                    <i class="fa-solid fa-phone fa-2x"><a>XXXXX-XXXXX</a></i><br>
+                    <i class="fa-solid fa-envelope fa-2x"><a href="#email"></a></i><br>
+                    <i class="fa-brands fa-facebook fa-2x"><a href="#fb"></a></i>
+                    <i class="fa-brands fa-instagram fa-2x"><a href="#ig"></a></i>
+                    <i class="fa-brands fa-linkedin-in fa-2x"><a href="#linkedin"></a></i>
+                    
+                </div>
+            </div>
+        </footer>
+    </main>
+    
+</body>
+</html>
